@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GFOX_Test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/admin/CLionProjects/GFOX_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/admin/CLionProjects/GFOX_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/admin/CLionProjects/GFOX_Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GFOX_Test">
+				<Option output="/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/GFOX_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/CLionProjects/GFOX_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 GFOX_Test"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GFOX_Test/fast">
+				<Option output="/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/GFOX_Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/admin/CLionProjects/GFOX_Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 GFOX_Test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/admin/CLionProjects/GFOX_Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/core/notification.cpp">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/core/notification.h">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/core/placeorder.cpp">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/core/placeorder.h">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/core/processor.cpp">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/core/processor.h">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/core/run.cpp">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/core/run.h">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/main.cpp">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/model/notifyTrader.cpp">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/model/notifyTrader.h">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/model/order.cpp">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/model/order.h">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/utility/compare.cpp">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/utility/compare.h">
+			<Option target="GFOX_Test"/>
+		</Unit>
+		<Unit filename="/home/admin/CLionProjects/GFOX_Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
