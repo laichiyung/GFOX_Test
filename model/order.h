@@ -14,12 +14,12 @@ namespace model{
     //order structure
     class order {
     public:
-        order(string traderID, string symbol, long quantity, long price, ptime orderDateTime, string side);
+        order(string traderID, string symbol, long quantity, double price, ptime orderDateTime, string side);
         string traderID;
         string symbol;
         long quantity;
         long totalQuantity;
-        long price;
+        double price;
         ptime orderDateTime;
         string side;
     };

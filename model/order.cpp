@@ -4,7 +4,7 @@
 
 #include "order.h"
 
-model::order::order(string traderID, string symbol, long quantity, long price, ptime orderDateTime, string side) {
+model::order::order(string traderID, string symbol, long quantity, double price, ptime orderDateTime, string side) {
     this->traderID = traderID;
     this->symbol = symbol;
     this->quantity = quantity;

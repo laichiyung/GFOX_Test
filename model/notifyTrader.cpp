@@ -3,7 +3,7 @@
 //
 
 #include "notifyTrader.h"
-model::notifyTrader::notifyTrader(string traderID, string symbol, long quantity, long price, ptime orderDateTime, string side){
+model::notifyTrader::notifyTrader(string traderID, string symbol, long quantity, double price, ptime orderDateTime, string side){
     this->traderID = traderID;
     this->symbol = symbol;
     this->quantity = quantity;

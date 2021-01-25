@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/admin/CLionProjects/GFOX_Test/core/notification.cpp
+notification.h
+/home/admin/CLionProjects/GFOX_Test/core/notification.h
+
 /home/admin/CLionProjects/GFOX_Test/core/notification.h
 iostream
 -
@@ -13,6 +17,10 @@ iostream
 /home/admin/CLionProjects/GFOX_Test/model/notifyTrader.h
 mutex
 -
+
+/home/admin/CLionProjects/GFOX_Test/core/placeorder.cpp
+placeorder.h
+/home/admin/CLionProjects/GFOX_Test/core/placeorder.h
 
 /home/admin/CLionProjects/GFOX_Test/core/placeorder.h
 iostream
@@ -42,17 +50,61 @@ placeorder.h
 notification.h
 /home/admin/CLionProjects/GFOX_Test/core/notification.h
 
+/home/admin/CLionProjects/GFOX_Test/core/run.cpp
+run.h
+/home/admin/CLionProjects/GFOX_Test/core/run.h
+
+/home/admin/CLionProjects/GFOX_Test/core/run.h
+iostream
+-
+map
+-
+bits/unique_ptr.h
+-
+thread
+-
+processor.h
+/home/admin/CLionProjects/GFOX_Test/core/processor.h
+notification.h
+/home/admin/CLionProjects/GFOX_Test/core/notification.h
+
+/home/admin/CLionProjects/GFOX_Test/main.cpp
+iostream
+-
+queue
+-
+core/placeorder.h
+/home/admin/CLionProjects/GFOX_Test/core/placeorder.h
+core/run.h
+/home/admin/CLionProjects/GFOX_Test/core/run.h
+core/notification.h
+/home/admin/CLionProjects/GFOX_Test/core/notification.h
+model/order.h
+/home/admin/CLionProjects/GFOX_Test/model/order.h
+
+/home/admin/CLionProjects/GFOX_Test/model/notifyTrader.cpp
+notifyTrader.h
+/home/admin/CLionProjects/GFOX_Test/model/notifyTrader.h
+
 /home/admin/CLionProjects/GFOX_Test/model/notifyTrader.h
 iostream
 -
 boost/date_time/posix_time/posix_time.hpp
 -
 
+/home/admin/CLionProjects/GFOX_Test/model/order.cpp
+order.h
+/home/admin/CLionProjects/GFOX_Test/model/order.h
+
 /home/admin/CLionProjects/GFOX_Test/model/order.h
 iostream
 -
 boost/date_time/posix_time/posix_time.hpp
 -
+
+/home/admin/CLionProjects/GFOX_Test/utility/compare.cpp
+compare.h
+/home/admin/CLionProjects/GFOX_Test/utility/compare.h
 
 /home/admin/CLionProjects/GFOX_Test/utility/compare.h
 compare.h
