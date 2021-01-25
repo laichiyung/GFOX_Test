@@ -7,7 +7,7 @@
 
 using namespace std;
 using namespace core;
-double price = 1000;
+double price = 10;
 int main() {
     //notification pointer
     shared_ptr<notification> n(new notification());
