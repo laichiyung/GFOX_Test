@@ -5,5 +5,5 @@ How to build:
 2. Use cmake to build the project
 
 How it works:
-1. execute the program
-2. notification to traders will be output to commandline
+1. Execute the program
+2. Notification to traders will be output to commandline
